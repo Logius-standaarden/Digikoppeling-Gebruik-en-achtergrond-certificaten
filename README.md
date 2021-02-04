@@ -1,3 +1,4 @@
-# Template-Standaard
+# Digikoppeling Gebruik en achtergrond certificaten
 
-https://logius-standaarden.github.io/Template-Repository/
+- html: https://github.com/Logius-standaarden/Digikoppeling-Gebruik-en-achtergrond-certificaten/
+- markdown: [04_content.md](04_content.md)
