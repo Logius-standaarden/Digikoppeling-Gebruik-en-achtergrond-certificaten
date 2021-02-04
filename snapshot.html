@@ -27,7 +27,7 @@ dfn{cursor:pointer}
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
     
     
-<title>Digikoppeling Gebruik en Achtergrond Certificaten</title>
+<title>Digikoppeling Gebruik en Achtergrond Certificaten 1.6</title>
     
     
 <link rel="shortcut icon" type="image/x-icon" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/logius.ico">
@@ -122,7 +122,7 @@ h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:
   "type": [
     "TechArticle"
   ],
-  "name": "Digikoppeling Gebruik en Achtergrond Certificaten",
+  "name": "Digikoppeling Gebruik en Achtergrond Certificaten 1.6",
   "inLanguage": "nl",
   "license": "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
   "datePublished": "2020-09-20",
@@ -293,8 +293,8 @@ h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:
   ]
 }</script>
 <script id="initialUserConfig" type="application/json">{
-  "specStatus": "BP",
-  "specType": "DEF",
+  "specStatus": "DEF",
+  "specType": "BP",
   "shortName": "gbachtcert",
   "publishDate": "2020-09-20",
   "license": "cc-by-nd",
@@ -407,21 +407,21 @@ h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:
     }
   },
   "publishISODate": "2020-09-20T00:00:00.000Z",
-  "generatedSubtitle": "undefined 20 september 2020"
+  "generatedSubtitle": "Vastgestelde versie 20 september 2020"
 }</script>
-<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-BASIS.css"></head>
+<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-VG.css"></head>
 
 <body class="h-entry"><div class="head">
-    <a class="logo" href="https://www.logius.nl/standaarden"><img id="Logius" alt="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44" height="77"></a> <h1 id="title" class="title">Digikoppeling Gebruik en Achtergrond Certificaten</h1>
+    <a class="logo" href="https://www.logius.nl/standaarden"><img id="Logius" alt="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44" height="77"></a> <h1 id="title" class="title">Digikoppeling Gebruik en Achtergrond Certificaten 1.6</h1>
     
     <h2>
-      Logius <br>
-      
+      Logius Best Practice<br>
+      Vastgestelde versie
       <time class="dt-published" datetime="2020-09-20">20 september 2020</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd>
-              <a class="u-url" href="https://publicatie.centrumvoorstandaarden.nl/dk/bp-def-gbachtcert-20200920/">https://publicatie.centrumvoorstandaarden.nl/dk/bp-def-gbachtcert-20200920/</a>
+              <a class="u-url" href="https://publicatie.centrumvoorstandaarden.nl/dk/def-bp-gbachtcert-20200920/">https://publicatie.centrumvoorstandaarden.nl/dk/def-bp-gbachtcert-20200920/</a>
             </dd><dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://publicatie.centrumvoorstandaarden.nl/dk/gbachtcert/">https://publicatie.centrumvoorstandaarden.nl/dk/gbachtcert/</a>
             </dd>
@@ -455,8 +455,11 @@ h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:
     <hr title="Separator for header">
   </div>
     <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document beschrijft de wijze waarop, binnen de context van Digikoppeling, met certificaten wordt omgegaan. </p></section>
-    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p></p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-doelgroep"><bdi class="secno">1.1 </bdi>Doel en doelgroep</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-standaarden"><bdi class="secno">1.2 </bdi>Digikoppeling standaarden</a></li><li class="tocline"><a class="tocxref" href="#achtergrond"><bdi class="secno">1.3 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#omgang-met-certificaat"><bdi class="secno">1.4 </bdi>Omgang met certificaat</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.5 </bdi>Leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">1.6 </bdi>Referenties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#achtergrond-pkioverheid-certificaten"><bdi class="secno">2. </bdi>Achtergrond PKIoverheid certificaten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#pkioverheid"><bdi class="secno">2.1 </bdi>PKIoverheid</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#stamcertificaat"><bdi class="secno">2.1.1 </bdi>Stamcertificaat</a></li><li class="tocline"><a class="tocxref" href="#certificaat-hierarchieen"><bdi class="secno">2.1.2 </bdi>Certificaat hiërarchieën</a></li><li class="tocline"><a class="tocxref" href="#tsps"><bdi class="secno">2.1.3 </bdi>TSPs</a></li><li class="tocline"><a class="tocxref" href="#persoonsgebonden-certificaten"><bdi class="secno">2.1.4 </bdi>Persoonsgebonden certificaten</a></li><li class="tocline"><a class="tocxref" href="#server-service-certificaten"><bdi class="secno">2.1.5 </bdi>Server (service) certificaten</a></li><li class="tocline"><a class="tocxref" href="#public-en-private-services-servercertificaten"><bdi class="secno">2.1.6 </bdi>Public en Private services servercertificaten</a></li><li class="tocline"><a class="tocxref" href="#generaties-en-naamgeving"><bdi class="secno">2.1.7 </bdi>Generaties en naamgeving</a></li></ol></li><li class="tocline"><a class="tocxref" href="#toepassingen"><bdi class="secno">2.2 </bdi>Toepassingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#hoe-werkt-pki-in-digikoppeling"><bdi class="secno">2.2.1 </bdi>Hoe werkt PKI in Digikoppeling?</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#ontwerp-aspecten-digikoppeling-adapter"><bdi class="secno">3. </bdi>Ontwerp aspecten Digikoppeling adapter</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen"><bdi class="secno">3.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-0"><bdi class="secno">3.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen"><bdi class="secno">3.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bestellen-certificaat"><bdi class="secno">4. </bdi>Bestellen certificaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-0"><bdi class="secno">4.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-1"><bdi class="secno">4.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-0"><bdi class="secno">4.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#installatie-certificaat"><bdi class="secno">5. </bdi>Installatie certificaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-1"><bdi class="secno">5.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-2"><bdi class="secno">5.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-1"><bdi class="secno">5.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#distributie-en-cpa-creatie"><bdi class="secno">6. </bdi>Distributie en CPA-creatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-2"><bdi class="secno">6.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-3"><bdi class="secno">6.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-2"><bdi class="secno">6.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gebruiksaspecten"><bdi class="secno">7. </bdi>Gebruiksaspecten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-3"><bdi class="secno">7.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-4"><bdi class="secno">7.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-3"><bdi class="secno">7.3 </bdi>Stappen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#tls-offloading-cpa"><bdi class="secno">7.3.1 </bdi>TLS Offloading - CPA</a></li><li class="tocline"><a class="tocxref" href="#tls-offloading-wus"><bdi class="secno">7.3.2 </bdi>TLS offloading - WUS</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#bijlage-1-bestandsformaten-voor-certificaten"><bdi class="secno">8. </bdi>Bijlage 1: Bestandsformaten voor certificaten</a></li><li class="tocline"><a class="tocxref" href="#bijlage-2-richtlijnen-voor-een-veilig-password"><bdi class="secno">9. </bdi>Bijlage 2: Richtlijnen voor een veilig password</a></li><li class="tocline"><a class="tocxref" href="#bijlage-3-basisattributen-in-certificaat"><bdi class="secno">10. </bdi>Bijlage 3: Basisattributen in certificaat</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">11. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">12. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
-    <section class="introductory" data-format="markdown"><h1>Documentbeheer</h1><table class="dkkvs">
+    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    Dit is de definitieve versie van de  best practice. Wijzigingen naar
+    aanleiding van consultaties zijn doorgevoerd.
+  </p><p></p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-doelgroep"><bdi class="secno">1.1 </bdi>Doel en doelgroep</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-standaarden"><bdi class="secno">1.2 </bdi>Digikoppeling standaarden</a></li><li class="tocline"><a class="tocxref" href="#achtergrond"><bdi class="secno">1.3 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#omgang-met-certificaat"><bdi class="secno">1.4 </bdi>Omgang met certificaat</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.5 </bdi>Leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">1.6 </bdi>Referenties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#achtergrond-pkioverheid-certificaten"><bdi class="secno">2. </bdi>Achtergrond PKIoverheid certificaten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#pkioverheid"><bdi class="secno">2.1 </bdi>PKIoverheid</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#stamcertificaat"><bdi class="secno">2.1.1 </bdi>Stamcertificaat</a></li><li class="tocline"><a class="tocxref" href="#certificaat-hierarchieen"><bdi class="secno">2.1.2 </bdi>Certificaat hiërarchieën</a></li><li class="tocline"><a class="tocxref" href="#tsps"><bdi class="secno">2.1.3 </bdi>TSPs</a></li><li class="tocline"><a class="tocxref" href="#persoonsgebonden-certificaten"><bdi class="secno">2.1.4 </bdi>Persoonsgebonden certificaten</a></li><li class="tocline"><a class="tocxref" href="#server-service-certificaten"><bdi class="secno">2.1.5 </bdi>Server (service) certificaten</a></li><li class="tocline"><a class="tocxref" href="#public-en-private-services-servercertificaten"><bdi class="secno">2.1.6 </bdi>Public en Private services servercertificaten</a></li><li class="tocline"><a class="tocxref" href="#generaties-en-naamgeving"><bdi class="secno">2.1.7 </bdi>Generaties en naamgeving</a></li></ol></li><li class="tocline"><a class="tocxref" href="#toepassingen"><bdi class="secno">2.2 </bdi>Toepassingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#hoe-werkt-pki-in-digikoppeling"><bdi class="secno">2.2.1 </bdi>Hoe werkt PKI in Digikoppeling?</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#ontwerp-aspecten-digikoppeling-adapter"><bdi class="secno">3. </bdi>Ontwerp aspecten Digikoppeling adapter</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen"><bdi class="secno">3.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-0"><bdi class="secno">3.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen"><bdi class="secno">3.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bestellen-certificaat"><bdi class="secno">4. </bdi>Bestellen certificaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-0"><bdi class="secno">4.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-1"><bdi class="secno">4.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-0"><bdi class="secno">4.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#installatie-certificaat"><bdi class="secno">5. </bdi>Installatie certificaat</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-1"><bdi class="secno">5.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-2"><bdi class="secno">5.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-1"><bdi class="secno">5.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#distributie-en-cpa-creatie"><bdi class="secno">6. </bdi>Distributie en CPA-creatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-2"><bdi class="secno">6.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-3"><bdi class="secno">6.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-2"><bdi class="secno">6.3 </bdi>Stappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gebruiksaspecten"><bdi class="secno">7. </bdi>Gebruiksaspecten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#vragen-3"><bdi class="secno">7.1 </bdi>Vragen</a></li><li class="tocline"><a class="tocxref" href="#achtergrond-4"><bdi class="secno">7.2 </bdi>Achtergrond</a></li><li class="tocline"><a class="tocxref" href="#stappen-3"><bdi class="secno">7.3 </bdi>Stappen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#tls-offloading-cpa"><bdi class="secno">7.3.1 </bdi>TLS Offloading - CPA</a></li><li class="tocline"><a class="tocxref" href="#tls-offloading-wus"><bdi class="secno">7.3.2 </bdi>TLS offloading - WUS</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#bijlage-1-bestandsformaten-voor-certificaten"><bdi class="secno">8. </bdi>Bijlage 1: Bestandsformaten voor certificaten</a></li><li class="tocline"><a class="tocxref" href="#bijlage-2-richtlijnen-voor-een-veilig-password"><bdi class="secno">9. </bdi>Bijlage 2: Richtlijnen voor een veilig password</a></li><li class="tocline"><a class="tocxref" href="#bijlage-3-basisattributen-in-certificaat"><bdi class="secno">10. </bdi>Bijlage 3: Basisattributen in certificaat</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">11. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">12. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
+    <section class="introductory" data-format="markdown"><h1>Documentbeheer</h1><p>Documentbeheer</p><table class="dkkvs">
 <thead>
 <tr>
 <th>Datum</th>
@@ -466,34 +469,22 @@ h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:
 </tr>
 </thead>
 <tbody><tr>
-<td>22-11-2011</td>
+<td>04/04/2016</td>
+<td>1.4</td>
+<td>Logius</td>
+<td>Referenties naar Beveiligingsvoorschriften aangepast naar nieuw document Digikoppeling beveiligingsstandaarden en voorschriften Nieuw hoofdstuk 2 over PKIoverheid toegevoegd TLS offloading toegevoegd Bijlage 4 OIN &amp; HRN verplaatst naar Digikoppeling Identificatie en Authenticatie</td>
+</tr>
+<tr>
+<td>12/10/2017</td>
 <td>1.5</td>
 <td>Logius</td>
-<td>-</td>
+<td>Tekstuele redactie, Figuur overzicht documentatie aangepast</td>
 </tr>
 <tr>
-<td>09-06-2014</td>
+<td>01/09/2020</td>
 <td>1.6</td>
 <td>Logius</td>
-<td>Redactioneel bijwerken</td>
-</tr>
-<tr>
-<td>13-01-2015</td>
-<td>3.0</td>
-<td>Logius</td>
-<td>Redactioneel</td>
-</tr>
-<tr>
-<td>01-10-2017</td>
-<td>3.1</td>
-<td>Logius</td>
-<td>Herzien nav:  - Compliance Voorziening  - Begrippen ebMS2 en CPA   Register</td>
-</tr>
-<tr>
-<td>16-05-2019</td>
-<td>3.2</td>
-<td>Logius</td>
-<td>EB015 SyncReply toegevoegd</td>
+<td>Informatie over Private Root CA en Pkioverheid generaties toegevoegd; CSP vervangen door TSP</td>
 </tr>
 </tbody></table></section>
     <section class="introductory" data-format="markdown"><h1>Colofon</h1><table class="dkkvs">

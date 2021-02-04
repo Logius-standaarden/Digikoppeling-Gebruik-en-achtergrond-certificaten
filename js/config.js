@@ -10,7 +10,7 @@ var respecConfig = {
   // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
   // TG: Versie teruggetrokken
   // BASIS, GN-BASIS: 'geen status'
-  specStatus: "BP",
+  specStatus: "DEF",
 
   // SpecType currently supported
   // NO: "Norm"
@@ -22,7 +22,7 @@ var respecConfig = {
   // AL: "Algemeen"
   // BD: "Beheerdocumentatie"
   // BP: "Best Practice"
-  specType: "DEF",
+  specType: "BP",
 
   // subtitle will be shown below title, can be omitted 
   //subtitle: "Hier komt een subtitle",
