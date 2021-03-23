@@ -27,6 +27,10 @@ var respecConfig = {
   // subtitle will be shown below title, can be omitted 
   //subtitle: "Hier komt een subtitle",
 
+  // The specification's publish domain, which is used to publish the specification
+  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
+  pubDomain: "dk",
+
   // The specification's "short name", which is the name used in NL_Respec URLs
   shortName: "gbachtcert",
 
@@ -37,6 +41,9 @@ var respecConfig = {
 
   // A YYYY-MM-DD date. When there is a previous release of a given specification, (W3C)
   previousPublishDate: "2020-09-20",
+
+  publishVersion: "1.6.1",
+  previousPublishVersion: "1.6",
 
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
@@ -102,16 +109,12 @@ var respecConfig = {
   //   },
   // ],
 
-  // You can use markdown to write ReSpec based documents.
-  // format: "markdown",
-  // TODO  Do not suse this config, it may cause a problem., use instead:
-  // <section data-format="markdown" data-include="<filename>.md"></section>
-
-
-  // The specification's publish domain, which is used to publish the specification
-  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
-  pubDomain: "dk",
-  pubSubDomain: "gbachtcert",
+  alternateFormats: [
+    {
+      label: "pdf",
+      uri: "Digikoppeling-Gebruik-en-achtergrond-certificaten.pdf",
+    },
+    ],
 
   // For Consultatieversies (specStatus="GN-CV") there is a default text in the section "Status of this document" that contains an emailaddress for feedback and comments on the document.
   nl_emailComments: "digikoppeling@logius.nl",
@@ -217,7 +220,7 @@ var respecConfig = {
     },
     "X520": {
       href: "https://www.iso.org/standard/43796.html",
-      title:"ITU-T Recommendation X.520 (2001) ISO/IEC 9594-6",
+      title: "ITU-T Recommendation X.520 (2001) ISO/IEC 9594-6",
       publisher: "ISO",
     },
     "Logius website": {
@@ -231,7 +234,7 @@ var respecConfig = {
       publisher: "Logius",
     },
 
-  
+
 
   }
 };
