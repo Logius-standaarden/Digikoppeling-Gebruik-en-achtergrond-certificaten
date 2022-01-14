@@ -27,7 +27,7 @@ De websites van de TSP's bevatten formulieren voor de aanvraag van certificaten.
 
 Om op deze wijze een certificaat te bestellen moet u eerst een Certificate Signing Request (CSR) maken op de server waarop u het certificaat wilt installeren. Dit CSR bevat naast de door u gegenereerde publieke sleutel ook gegevens die u in het certificaat wilt opnemen (zie hieronder). Vervolgens stuurt u dit CSR in p10 formaat op (afhankelijk van de TSP-procedure) per mail of op een fysieke drager per aangetekende post. Het aanmaken van een CSR verschilt per type server, maar er zijn veel leveranciers die hier handleidingen voor publiceren<sup>13</sup>. De privésleutel kunt u uit de keystore van uw server exporteren voor veilige back-up in een kluis; het p12 formaat is hiervoor geschikt (zie ook “Bestandsformaten voor certificaten“ in bijlage 1. Het volgende hoofdstuk beschrijft hoe u deze privésleutel zou moeten beveiligen.
 
-<sup>13</sup>: Zie bijvoorbeeld https://knowledge.verisign.com/support/ssl-certificates-support/index?page=content&id=AR235
+<sup>13</sup>: Zie bijvoorbeeld https://www.verisign.com/en_US/website-presence/online/ssl-certificates/index.xhtml
 
 Bij bestelling van het certificaat dient u de volgende onderdelen te specificeren:
 
