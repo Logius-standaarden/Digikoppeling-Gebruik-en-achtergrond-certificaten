@@ -115,3 +115,7 @@ Daarnaast geeft de Digikoppeling standaard de mogelijkheid de inhoud van het ber
 
 Digikoppeling onderkent de profielen *signed*, en *signed en encrypted* die zowel voor WUS als ebMS2 zijn uitgewerkt.
 
+'''
+Zie Digikoppeling REST API profiel voor de ondersteuning van signing en encryptie voor REST API's
+'''
+
