@@ -233,6 +233,11 @@ var respecConfig = {
       title: "Digikoppeling Compliance Voorziening",
       publisher: "Logius",
     },
+    "Digikoppeling REST API profiel": {
+      href: "https://publicatie.centrumvoorstandaarden.nl/dk/restapi/",
+      title: "Digikoppeling REST API profiel",
+      publisher: "Logius",
+    },    
 
 
 
