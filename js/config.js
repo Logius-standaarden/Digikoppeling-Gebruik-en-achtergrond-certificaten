@@ -10,7 +10,7 @@ var respecConfig = {
   // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
   // TG: Versie teruggetrokken
   // BASIS, GN-BASIS: 'geen status'
-  specStatus: "DEF",
+  specStatus: "WV",
 
   // SpecType currently supported
   // NO: "Norm"
@@ -233,6 +233,11 @@ var respecConfig = {
       title: "Digikoppeling Compliance Voorziening",
       publisher: "Logius",
     },
+    "Digikoppeling REST API profiel": {
+      href: "https://publicatie.centrumvoorstandaarden.nl/dk/restapi/",
+      title: "Digikoppeling REST API profiel",
+      publisher: "Logius",
+    },    
 
 
 
