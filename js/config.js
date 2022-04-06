@@ -10,7 +10,7 @@ var respecConfig = {
   // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
   // TG: Versie teruggetrokken
   // BASIS, GN-BASIS: 'geen status'
-  specStatus: "WV",
+  specStatus: "DEF",
 
   // SpecType currently supported
   // NO: "Norm"
@@ -37,13 +37,13 @@ var respecConfig = {
   // A YYYY-MM-DD date. The publication date of the present document. 
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
-  publishDate: "2021-02-01",
+  publishDate: "2022-04-11",
 
   // A YYYY-MM-DD date. When there is a previous release of a given specification, (W3C)
-  previousPublishDate: "2020-09-20",
+  previousPublishDate: "2021-02-01",
 
-  publishVersion: "1.6.1",
-  previousPublishVersion: "1.6",
+  publishVersion: "1.6.2",
+  previousPublishVersion: "1.6.1",
 
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
@@ -127,15 +127,6 @@ var respecConfig = {
   // this configuration can be set to make sure that the alle H1 headers and navigation bars are preserved
   nl_markdownSplitH1sections: true,
 
-  // in some cases the Repository of a Specification document and the Issue- and PR bases are split
-  // thi scan be configured below
-  // if not set, the url's will be generated on the respecConfig.github automatically  
-  nl_github: {
-    //issueBase: "https://github.com/Logius-standaarden/<repository>/issues",
-    revision: "https://github.com/Logius-standaarden/Digikoppeling-Gebruik-en-achtergrond-certificaten",
-    //pullrequests: "https://github.com/Logius-standaarden/Logius-standaarden/<repository>/pulls"
-  },
-
   // nl_organisationName is used for some company specific values in the header (and Sotd)
   // currently supported: Logius and Geonovum (default)  
   nl_organisationName: "Logius",
@@ -143,11 +134,6 @@ var respecConfig = {
   // prefix for the names of company specific css, svg and ico prefixes
   // defaults to "GN-"  
   nl_organisationPrefix: "LS-",
-
-  // class style can be automatically insertd in generated markdown tables
-  // currently defaults to simple, but this may change
-  // options simple, data, <your css>    
-  nl_markdownTableClass: "dkkvs",
 
   // if nl_markdownEmbedImageInFigure is set to true images in markdown generated content will be surrounded with <figures> element
   // so that figures can be linked are be a part of table of figures
