@@ -171,7 +171,7 @@ var respecConfig = {
       publisher: "Nederlands Normalisatie-instituut",
     },
     "Digikoppeling Architectuur": {
-      href: "https://publicatie.centrumvoorstandaarden.nl/dk/architectuur"
+      href: "https://publicatie.centrumvoorstandaarden.nl/dk/architectuur",
       title:
         "Digikoppeling Architectuur",
       authors: ["Logius Centrum voor standaarden"],
