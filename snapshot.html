@@ -1,10 +1,23 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.1.2 Logius profile 20220405">
+<meta name="generator" content="ReSpec 32.1.10 Logius profile 20220628">
+<style>
+.issue-label{text-transform:initial}
+.warning>p:first-child{margin-top:0}
+.warning{padding:.5em;border-left-width:.5em;border-left-style:solid}
+span.warning{padding:.1em .5em .15em}
+.issue.closed span.issue-number{text-decoration:line-through}
+.issue.closed span.issue-number::after{content:" (Closed)";font-size:smaller}
+.warning{border-color:#f11;border-width:.2em;border-style:solid;background:#fbe9e9}
+.warning-title:before{content:"⚠";font-size:1.3em;float:left;padding-right:.3em;margin-top:-.3em}
+li.task-list-item{list-style:none}
+input.task-list-item-checkbox{margin:0 .35em .25em -1.6em;vertical-align:middle}
+.issue a.respec-gh-label{padding:5px;margin:0 2px 0 2px;font-size:10px;text-transform:none;text-decoration:none;font-weight:700;border-radius:4px;position:relative;bottom:2px;border:none;display:inline-block}
+</style>
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font:small Helvetica Neue,sans-serif,Droid Sans Fallback;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
 .dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
 .dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
@@ -228,7 +241,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 }</script>
 <link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-VG.css"></head>
 
-<body class="h-entry toc-inline"><div class="head">
+<body class="h-entry"><div class="head">
     <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44">
   </a> <h1 id="title" class="title">Digikoppeling Gebruik en Achtergrond Certificaten 1.6.2</h1>
     
@@ -375,7 +388,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </tbody></table>
 </section><section id="digikoppeling-standaarden"><div class="header-wrapper"><h3 id="x1-2-digikoppeling-standaarden"><bdi class="secno">1.2 </bdi>Digikoppeling standaarden</h3><a class="self-link" href="#digikoppeling-standaarden" aria-label="Permalink for Section 1.2"></a></div>
 <p>Dit document is een onderdeel van de Digikoppeling standaard.</p>
-<p><figure id="fig-opbouw-documentatie-digikoppeling"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Opbouw documentatie Digikoppeling"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Opbouw documentatie Digikoppeling</span></figcaption></figure></p>
+<p><figure id="fig-opbouw-documentatie-digikoppeling"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Opbouw documentatie Digikoppeling" height="837" width="1327"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Opbouw documentatie Digikoppeling</span></figcaption></figure></p>
 <details>
     <summary> Tekstalternatief </summary>
 <ul>
@@ -573,9 +586,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li>De verzender gebruikt de publieke of openbare sleutel van de ontvanger om het bericht of bericht inhoud te versleutelen (encryptie). De ontvanger gebruikt zijn eigen private sleutel om het bericht te ontcijferen. Dit heet asymmetrische encryptie.</li>
 </ul>
 <p>Digikoppeling onderkent de profielen <em>signed</em>, en <em>signed en encrypted</em> die zowel voor WUS als ebMS2 zijn uitgewerkt.</p>
-<aside class="note" title="REST API">
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="5"><span>Noot</span><span class="issue-label">: REST API</span></div><aside class="">
 <p>Zie het [<cite><a class="bibref" data-link-type="biblio" href="#bib-digikoppeling rest api profiel" title="Digikoppeling REST API profiel">Digikoppeling REST API profiel</a></cite>] voor de ondersteuning van signing en encryptie voor REST API's</p>
-</aside></section></section></section>
+</aside></div></section></section></section>
     <section id="ontwerp-aspecten-digikoppeling-adapter"><div class="header-wrapper"><h2 id="x3-ontwerp-aspecten-digikoppeling-adapter"><bdi class="secno">3. </bdi>Ontwerp aspecten Digikoppeling adapter</h2><a class="self-link" href="#ontwerp-aspecten-digikoppeling-adapter" aria-label="Permalink for Section 3."></a></div>
 <section id="vragen"><div class="header-wrapper"><h3 id="x3-1-vragen"><bdi class="secno">3.1 </bdi>Vragen</h3><a class="self-link" href="#vragen" aria-label="Permalink for Section 3.1"></a></div>
 <p>Dit hoofdstuk geeft antwoord op de volgende vragen met betrekking tot certificaten voor Digikoppeling:</p>
