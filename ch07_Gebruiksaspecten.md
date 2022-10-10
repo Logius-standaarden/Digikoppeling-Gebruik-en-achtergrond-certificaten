@@ -63,7 +63,7 @@ Een certificaat is geldig als het aan de volgende drie eisen voldoet:
 - De geldigheidsduur van het certificaat is niet verstreken.
 - Het certificaat is niet ingetrokken door de TSP.
 
-<sup>22</sup>: Het stamcertificaat Staat der Nederlanden Root CA vindt u op [https://www.pkioverheid.nl/](https://www.pkioverheid.nl/) onder “Stamcertificaat installeren”. Hier vindt u ook per TSP een link naar de CRL met ingetrokken certificaten.
+<sup>22</sup>: Het stamcertificaat Staat der Nederlanden Root CA vindt u op https://cert.pkioverheid.nl/ onder “Stamcertificaat installeren”. Hier vindt u ook per TSP een link naar de CRL met ingetrokken certificaten.
 
 Om na te gaan of het certificaat is ingetrokken (Engels: revoked) publiceren de TSP's een Certificate Revocation List (CRL). In deze lijst worden de serienummers van ingetrokken certificaten opgenomen. Het is daarom nodig dat de CRL op regelmatige basis geraadpleegd wordt (of indien beschikbaar het OCSP-alternatief). Aangezien er meerdere TSP's zijn aangewezen binnen het overheidsdomein zullen deze allemaal moeten worden geraadpleegd. PKIoverheid certificaten zijn onderdeel van een hiërarchie. Daarom moeten ook 'bovengelegen' CRL's worden geraadpleegd<sup>23</sup>.
 
