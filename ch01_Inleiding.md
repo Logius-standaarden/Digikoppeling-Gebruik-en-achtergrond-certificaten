@@ -4,7 +4,7 @@
 
 Dit document beschrijft de wijze waarop, binnen de context van
 
-Digikoppeling, met certificaten wordt omgegaan. Inhoudelijk voorziet het in de detaillering van de architectuur voor identificatie, authenticatie en autorisatie. Bovendien geeft het uitleg over de gebruikelijke werkwijze bij het toepassen van certificaten. Meer informatie over certificaten is te vinden op de website: [www.pkioverheid.nl](http://www.pkioverheid.nl) en cert.pkioverheid.nl.
+Digikoppeling, met certificaten wordt omgegaan. Inhoudelijk voorziet het in de detaillering van de architectuur voor identificatie, authenticatie en autorisatie. Bovendien geeft het uitleg over de gebruikelijke werkwijze bij het toepassen van certificaten. Meer informatie over certificaten is te vinden op de website: https://cert.pkioverheid.nl/.
 
 Onderstaande tabel geeft de doelgroep van dit document weer.
 

@@ -76,7 +76,6 @@ var respecConfig = {
   // this can be simple or more elaborated
   authors: [{
     name: "Logius",
-    url: "https://logius.nl/standaarden",
     mailto: "digikoppeling@logius.nl",
   }
   ],

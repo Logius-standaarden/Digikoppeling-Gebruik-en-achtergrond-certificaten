@@ -10,11 +10,11 @@ De certificatie dienstverleners (TSPs<sup>3</sup>) verstrekken PKIoverheid certi
 
 <sup>3</sup>: Trust Service Providers (TSPs) is de engelse term voor certificatie dienstverleners. De afkorting TSPs wordt in dit document gebruikt voor beide begrippen. TSP’s werden eerder CSP genoemd, Certificate Service Provider.
 
-<sup>4</sup>: https://www.logius.nl/standaarden/pkioverheid/
+<sup>4</sup>: https://www.logius.nl/diensten/pkioverheid
 
 Kenmerken PKIoverheid<sup>5</sup>:
 
-<sup>5</sup>: [www.PKIoverheid.nl](http://www.PKIoverheid.nl)
+<sup>5</sup>: [Hoe werkt PKIoverheid?](https://www.logius.nl/diensten/pkioverheid/hoe-werkt-het)
 
 - Exclusief keurmerk van de Staat der Nederlanden.
 
@@ -100,7 +100,7 @@ Een PKIoverheid-certificaat wordt gebruikt bij:
 - rechtsgeldige elektronische handtekeningen
 - versleuteling van elektronische berichten
 
-Zie [www.pkioverheid.nl](http://www.pkioverheid.nl) voor meer informatie.
+Zie https://www.logius.nl/diensten/pkioverheid voor meer informatie.
 
 ### Hoe werkt PKI in Digikoppeling?
 
