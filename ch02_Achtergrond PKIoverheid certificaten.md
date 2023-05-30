@@ -83,7 +83,7 @@ Een Private Root certificaat is 3 jaar <sup>9</sup> geldig. Dit type certificaat
 
 ### Generaties en naamgeving
 
-Er zit een maximumlengte aan de geldigheidsduur van een Root CA-certificaat. In het geval van PKIoverheid is dat 12 à 15 jaar. De periode waarin een Root CA-certificaat geldig is wordt een generatie genoemd. De generaties worden opvolgend genummerd, vandaar dat we spreken over G1,  G2 en G3.  Zo’n nieuwe generatie is vaak ook een moment om de te gebruiken crypto-algoritmen nog eens kritisch te bekijken en –indien nodig- te vernieuwen. Bijvoorbeeld overschakeling naar een langere sleutellengte en sterker hashing alghoritme. Bij de Private Root‘leven’ we in de 1e generatie, vandaar de naam Private Root G1. Deze generatie loopt tot 14 november 2028.
+Er zit een maximumlengte aan de geldigheidsduur van een Root CA-certificaat. In het geval van PKIoverheid is dat 12 à 15 jaar. De periode waarin een Root CA-certificaat geldig is wordt een generatie genoemd. De generaties worden opvolgend genummerd, vandaar dat we spreken over G1,G2 en G3.  Zo’n nieuwe generatie is vaak ook een moment om de te gebruiken crypto-algoritmen nog eens kritisch te bekijken en –indien nodig- te vernieuwen. Bijvoorbeeld overschakeling naar een langere sleutellengte en sterker hashing alghoritme. Bij de Private Root ‘leven’ we in de 1e generatie, vandaar de naam Private Root G1. Deze generatie loopt tot 14 november 2028.
 
 ## Toepassingen
 
