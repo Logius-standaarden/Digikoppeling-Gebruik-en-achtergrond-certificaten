@@ -71,25 +71,19 @@ Een certificaat kan worden verstrekt ter identificatie en authenticatie van een 
 
 Digikoppeling vereist het gebruik van server (of service) certificaten voor de beveiliging van endpoints van webservices. Voor het signen en versleutelen van berichten wordt aanbevolen om een apart certificaat te gebruiken.
 
-### Public en Private services servercertificaten
+### Private services servercertificaten
 
-Een PKIoverheid services servercertificaat komt in twee soorten, een Public Root en een Private Root certificaat. Servercertificaten zijn geschikt voor de beveiliging van verkeer tussen systemen en verkeer naar/van websites.
+Een PKIoverheid services servercertificaat is een Private Root certificaat en geschikt voor de beveiliging van verkeer tussen systemen.
 
-Voor beide typen certificaten geldt dat ze aan de eisen van PKIoverheid voldoen, veilig beheerd worden en een audit ondergaan door een derde, onafhankelijke partij.
-
-De certificaten verschillen echter op twee punten, de geldigheidsduur en de toepasbaarheid van het certificaat.
-
-Een Public Root certificaat is ongeveer 1 jaar en 1 maand (397 dagen)<sup>9</sup> geldig. Dit geldt voor nieuw uit te geven certificaten. Reeds uitgegeven certificaten behouden hun geldigheidsduur. Dit type certificaat is aangemeld bij softwareleveranciers en wordt door webbrowsers automatisch vertrouwd.
+Een Private Root certificaat is 3 jaar <sup>9</sup> geldig. Dit type certificaat is niet aangemeld bij softwareleveranciers en wordt door browsers niet automatisch vertrouwd. Dit is echter geen belemmering als het certificaat gebruikt wordt voor berichtenverkeer tussen systemen.
 
 <sup>9</sup>: Laatste raadpleging februari 2020
-
-Een Private Root certificaat is 3 jaar geldig. Dit type certificaat is niet aangemeld bij softwareleveranciers en wordt door browsers niet automatisch vertrouwd. Dit is echter geen belemmering als het certificaat gebruikt wordt voor berichtenverkeer tussen systemen.
 
 **Raadpleeg [Digikoppeling Beveiligingsstandaarden en voorschriften] voor de eisen m.b.t certificaten.**
 
 ### Generaties en naamgeving
 
-Er zit een maximumlengte aan de geldigheidsduur van een Root CA-certificaat. In het geval van PKIoverheid is dat 12 à 15 jaar. De periode waarin een Root CA-certificaat geldig is wordt een generatie genoemd. De generaties worden opvolgend genummerd, vandaar dat we spreken over Public Root CA G1, Public Root CA G2 en Public Root CA G3. Aangezien het aanmeldingsproces bij de browsers enkele jaren kan duren is het zaak om tijdig een nieuwe generatie aan te maken. Zo’n nieuwe generatie is vaak ook een moment om de te gebruiken crypto-algoritmen nog eens kritisch te bekijken en –indien nodig- te vernieuwen. Bij de overgang van de Public Root G1 naar Public Root G2 is bijvoorbeeld destijds overgeschakeld naar een langere sleutellengte en sterker hashing alghoritme. Voor de generatienaamgeving voor de Private Root CA wordt dezelfde nummersystematiek gebruikt. Bij de Private Root, die later is ingevoerd dan de Public Root, ‘leven’ we nog in de 1e generatie, vandaar de naam Private Root G1. Deze generatie loopt tot 14 november 2028.
+Er zit een maximumlengte aan de geldigheidsduur van een Root CA-certificaat. In het geval van PKIoverheid is dat 12 à 15 jaar. De periode waarin een Root CA-certificaat geldig is wordt een generatie genoemd. De generaties worden opvolgend genummerd, vandaar dat we spreken over G1,G2 en G3.  Zo’n nieuwe generatie is vaak ook een moment om de te gebruiken crypto-algoritmen nog eens kritisch te bekijken en –indien nodig- te vernieuwen. Bijvoorbeeld overschakeling naar een langere sleutellengte en sterker hashing alghoritme. Bij de Private Root ‘leven’ we in de 1e generatie, vandaar de naam Private Root G1. Deze generatie loopt tot 14 november 2028.
 
 ## Toepassingen
 
