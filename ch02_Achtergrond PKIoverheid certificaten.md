@@ -41,7 +41,7 @@ Binnen de PKI voor de overheid zijn op vier niveaus verschillende typen certific
 - TSP certificaat;
 - Eindgebruikercertificaat.
 
-Het Staat der Nederlanden G3 stamcertificaat, wordt vanaf 1-1-2021 niet langer gebruikt, in plaats daarvan wordt voor machine to machine verkeer (en dus ook voor Digikoppeling) gebruik gemaakt van het Staat der Nederlanden Private Root CA G1 stamcertificaat.
+Voor machine to machine verkeer (en dus ook voor Digikoppeling) wordt gebruik gemaakt van het Staat der Nederlanden Private Root CA G1 stamcertificaat.
 (Voor webauthenticatie wordt vanaf 1-1-2021 gebruik gemaakt van het stamcertificaat Staat der Nederlanden EV Root CA, Dit stamcertificaat wordt niet gebruikt voor Digikoppeling<sup>6</sup>)
 
 
