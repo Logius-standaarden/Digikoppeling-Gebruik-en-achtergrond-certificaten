@@ -5,9 +5,9 @@
 Dit hoofdstuk geeft antwoord op de volgende vragen met betrekking tot certificaten voor Digikoppeling:
 
 1. Wat heb ik nodig voordat ik een certificaat kan bestellen?
-1. Bij wie kan ik een certificaat bestellen?
-1. Wie genereert het sleutelpaar en waarom geeft PKIoverheid de voorkeur aan generatie door de aanvrager?
-1. Wat zijn de formaten voor het opslaan van certificaten?
+2. Bij wie kan ik een certificaat bestellen?
+3. Wie genereert het sleutelpaar en waarom geeft PKIoverheid de voorkeur aan generatie door de aanvrager?
+4. Wat zijn de formaten voor het opslaan van certificaten?
 
 ## Achtergrond
 
