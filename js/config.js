@@ -20,12 +20,12 @@ var respecConfig = {
       }
     ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Gebruik-en-achtergrond-certificaten",
-  previousPublishDate: "2021-02-01",
-  previousPublishVersion: "1.6.1",
+  previousPublishDate: "2022-04-11",
+  previousPublishVersion: "1.6.2",
   pubDomain: "dk",
-  publishDate: "2022-04-11",
-  publishVersion: "1.6.2",
+  publishDate: "2023-06-01",
+  publishVersion: "1.6.3",
   shortName: "gbachtcert",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "BP"
 };
