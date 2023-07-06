@@ -23,9 +23,9 @@ var respecConfig = {
   previousPublishDate: "2022-04-11",
   previousPublishVersion: "1.6.2",
   pubDomain: "dk",
-  publishDate: "2023-06-01",
+  publishDate: "2023-07-07",
   publishVersion: "1.6.3",
   shortName: "gbachtcert",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "BP"
 };
