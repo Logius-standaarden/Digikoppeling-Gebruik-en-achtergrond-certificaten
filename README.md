@@ -1,5 +1,5 @@
 # Digikoppeling Gebruik en achtergrond certificaten
 
-- html: https://logius-standaarden.github.io/Digikoppeling-Gebruik-en-achtergrond-certificaten/
-- html(static): https://logius-standaarden.github.io/Digikoppeling-Gebruik-en-achtergrond-certificaten/snapshot.html
-- PDF-versie: https://github.com/Logius-standaarden/Digikoppeling-Gebruik-en-achtergrond-certificaten/blob/master/Digikoppeling-Gebruik-en-achtergrond-certificaten.pdf
+- Werkversie: https://logius-standaarden.github.io/Digikoppeling-Gebruik-en-achtergrond-certificaten/
+- Gepubliceerde versie (HTML): https://publicatie.centrumvoorstandaarden.nl/dk/gbachtcert/
+- Gepubliceerde versie (PDF): https://gitdocumentatie.logius.nl/publicatie/dk/gbachtcert/Digikoppeling-Gebruik-en-achtergrond-certificaten.pdf

@@ -5,9 +5,9 @@
 Dit hoofdstuk geeft antwoord op de volgende vragen met betrekking tot certificaten voor Digikoppeling:
 
 1. Wat heb ik nodig voordat ik een certificaat kan bestellen?
-1. Bij wie kan ik een certificaat bestellen?
-1. Wie genereert het sleutelpaar en waarom geeft PKIoverheid de voorkeur aan generatie door de aanvrager?
-1. Wat zijn de formaten voor het opslaan van certificaten?
+2. Bij wie kan ik een certificaat bestellen?
+3. Wie genereert het sleutelpaar en waarom geeft PKIoverheid de voorkeur aan generatie door de aanvrager?
+4. Wat zijn de formaten voor het opslaan van certificaten?
 
 ## Achtergrond
 
@@ -21,7 +21,7 @@ De procesgang voor het aansluiten op Digikoppeling is beschreven in het document
 
 Bestellen van een certificaat vindt plaats bij een door PKIoverheid aangewezen TSP die certificaten op commerciële basis verstrekt. Logius houdt op haar website een lijst met goedgekeurde TSP's bij die een PKIoverheid certificaat kunnen leveren<sup>12</sup>. Op deze website staat ook achtergrondinformatie over certificaten en hun werking. Belangrijk aandachtspunt hierbij is dat de eerste keer een aantal extra handelingen (bijvoorbeeld een bezoek aan de notaris of GWK) voorafgaat aan het daadwerkelijk bestellen van het certificaat. De website van Logius en het stelselhandboek bieden een heldere beschrijving van het bestellen en de daarbij betrokken TSP's.
 
-<sup>12</sup>: [https://www.logius.nl/pkioverheid/](https://www.logius.nl/pkioverheid/) bevat specifieke informatie over het aanschaffen van een certificaat.
+<sup>12</sup>: https://www.logius.nl/diensten/pkioverheid/aanvragen bevat specifieke informatie over het aanschaffen van een certificaat.
 
 De websites van de TSP's bevatten formulieren voor de aanvraag van certificaten. In het bestelproces en leveringsproces voor certificaten is het nodig om informatie zoals sleutels en certificaten uit te wisselen. Hiervoor bestaan verschillende bestandsformaten. Deze zijn beschreven in “Bestandsformaten voor certificaten“ in bijlage 1.
 
@@ -43,7 +43,7 @@ Bij bestelling van het certificaat dient u de volgende onderdelen te specificere
 
 <sup>14</sup>: Interoperabiliteit met sterk verouderde Java-tooling kan vereisen dat de “extended key usage”-bits TLSwwwServerAuthentication en/of TLSwwwClientAuthentication opgenomen worden.
 
-Het programma van Eisen deel 3b van PKIoverheid bevat een uitgebreider overzicht van velden die (deels optioneel) in een certificaat voor kunnen komen. Zie [www.logius.nl/pkioverheid](http://www.logius.nl/pkioverheid), zoekterm “deel 3b”.
+Het programma van Eisen deel 3b van PKIoverheid bevat een uitgebreider overzicht van velden die (deels optioneel) in een certificaat voor kunnen komen. Zie [Programma van Eisen](https://www.logius.nl/diensten/pkioverheid/aansluiten-als-tsp/programma-van-eisen), zoekterm “deel 3b”.
 
 Het door de TSP ondertekende certificaat ontvangt u meestal in een .p7b formaat of een .cer formaat (zie ook “Bestandsformaten voor certificaten“). Veranderen van informatie in het certificaat is niet mogelijk behalve door een nieuw certificaat aan te vragen. Het volgende hoofdstuk beschrijft hoe u dit certificaat kunt installeren.
 

@@ -2,9 +2,7 @@
 
 ## Doel en doelgroep
 
-Dit document beschrijft de wijze waarop, binnen de context van
-
-Digikoppeling, met certificaten wordt omgegaan. Inhoudelijk voorziet het in de detaillering van de architectuur voor identificatie, authenticatie en autorisatie. Bovendien geeft het uitleg over de gebruikelijke werkwijze bij het toepassen van certificaten. Meer informatie over certificaten is te vinden op de website: [www.pkioverheid.nl](http://www.pkioverheid.nl) en cert.pkioverheid.nl.
+Dit document beschrijft de wijze waarop, binnen de context van Digikoppeling, met certificaten wordt omgegaan. Inhoudelijk voorziet het in de detaillering van de architectuur voor identificatie, authenticatie en autorisatie. Bovendien geeft het uitleg over de gebruikelijke werkwijze bij het toepassen van certificaten. Meer informatie over certificaten is te vinden op de website: https://cert.pkioverheid.nl/.
 
 Onderstaande tabel geeft de doelgroep van dit document weer.
 
@@ -80,7 +78,7 @@ Een belangrijk aspect voor beveiliging van Digikoppeling is de juiste identifica
 
 <sup>1</sup>: Zie [http://www.logius.nl/pkioverheid](http://www.logius.nl/pkioverheid)
 
-<sup>2</sup>: Zie het document “Digikoppeling Identificatie en Authenticatie”
+<sup>2</sup>: Zie het document [Digikoppeling Identificatie en Authenticatie](https://gitdocumentatie.logius.nl/publicatie/dk/idauth/)
 
 - een uitwerking van de consequenties van deze authenticatie-afspraken;
 
@@ -108,27 +106,27 @@ De privésleutel vertegenwoordigt in de elektronische communicatie de eigenaar. 
 
 Dit document is opgebouwd volgens een karakteristiek proces dat organisaties bij invoering van Digikoppeling doorlopen:
 
-- Uitleg over PKIoverheid (hoofdstuk 2)
+- [Uitleg over PKIoverheid](#achtergrond-pkioverheid-certificaten)
 
-- Ontwerpen van de aansluiting op Digikoppeling met een Digikoppeling adapter (hoofdstuk 3).
+- [Ontwerpen van de aansluiting op Digikoppeling met een Digikoppeling adapter](#ontwerp-aspecten-digikoppeling-adapter)
 
-- Bestellen van een certificaat (hoofdstuk 4).
+- [Bestellen van een certificaat](#bestellen-certificaat)
 
-- Ontvangst en installatie van het certificaat (hoofdstuk 5).
+- [Ontvangst en installatie van het certificaat](#installatie-certificaat)
 
-- Distributie van het certificaat (hoofdstuk 6).
+- [Distributie van het certificaat](#distributie-en-cpa-creatie)
 
-- Gebruik van het certificaat (hoofdstuk 7).
+- [Gebruik van het certificaat](#gebruiksaspecten)
 
 De volgende hoofdstukken gaan hier per processtap op in. Elk hoofdstuk begint met de opsomming van een aantal vragen die duidelijk maken op welke informatiebehoefte het hoofdstuk antwoord geeft. Daarna volgt belangrijke achtergrondinformatie. Het hoofdstuk sluit af met een beschrijving van de benodigde activiteiten voor deze proces stap.
 
 In bijlagen is de volgende aanvullende informatie opgenomen:
 
-- Informatie over bestandsformaten waarin sleutels en/of certificaten uitgewisseld kunnen worden (Bijlage 1).
+- [Informatie over bestandsformaten waarin sleutels en/of certificaten uitgewisseld kunnen worden](#bijlage-1-bestandsformaten-voor-certificaten)
 
-- Richtlijnen voor een veilig wachtwoord (Bijlage 2)
+- [Richtlijnen voor een veilig wachtwoord](#bijlage-2-richtlijnen-voor-een-veilig-password)
 
-- Gegevens die in een certificaat opgenomen kunnen worden opgenomen (Bijlage 3)
+- [Gegevens die in een certificaat opgenomen kunnen worden opgenomen](#bijlage-3-basisattributen-in-certificaat)
 
 ## Referenties
 
