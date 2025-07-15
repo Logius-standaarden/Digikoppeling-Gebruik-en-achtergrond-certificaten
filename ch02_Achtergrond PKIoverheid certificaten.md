@@ -14,7 +14,7 @@ De certificatie dienstverleners (TSPs<sup>3</sup>) verstrekken PKIoverheid certi
 
 Kenmerken PKIoverheid<sup>5</sup>:
 
-<sup>5</sup>: [Hoe werkt PKIoverheid?](https://www.logius.nl/diensten/pkioverheid/hoe-werkt-het)
+<sup>5</sup>: [Hoe werkt PKIoverheid?](https://www.logius.nl/domeinen/toegang/pkioverheid/hoe-werkt-een-pkioverheidcertificaat)
 
 - Exclusief keurmerk van de Staat der Nederlanden.
 
