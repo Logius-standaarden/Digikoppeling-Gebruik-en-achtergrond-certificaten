@@ -2,7 +2,7 @@
 
 Voor de meest actuele versie zie het Programma van Eisen van PKIoverheid deel 3b<sup>27</sup>
 
-<sup>27</sup>: http:// https://www.logius.nl/diensten/pkioverheid/aansluiten-als-tsp/pogramma-van-eisen/
+<sup>27</sup>: [[[PKIO-PvE]]]
 
 | Veld / attribuut   | Criteria | Beschrijving   | Norm referentie   | Type   | Toelichting   |
 |---|---|---|---|---|---|
