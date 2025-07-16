@@ -113,5 +113,5 @@ In bijlagen is de volgende aanvullende informatie opgenomen:
 
 | **Overige standaarden**   | **Referentie**   |
 |---|---|
-| PKIoverheid “Programma van Eisen” | [[PKI Policy]], www.logius.nl/pkioverheid/ |
+| PKIoverheid “Programma van Eisen” | [[PKIO-PvE]], www.logius.nl/pkioverheid/ |
 

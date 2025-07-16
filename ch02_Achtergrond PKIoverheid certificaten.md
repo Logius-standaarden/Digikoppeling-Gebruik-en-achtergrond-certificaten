@@ -112,5 +112,5 @@ Digikoppeling onderkent de profielen *signed*, en *signed en encrypted* die zowe
 
 
 <aside class="note" title="REST API">
-<p>Zie het [[Digikoppeling REST API profiel]] voor de ondersteuning van signing en encryptie voor REST API's</p>
+<p>Zie het [[DK-RESTAPI]] voor de ondersteuning van signing en encryptie voor REST API's</p>
 </aside>
