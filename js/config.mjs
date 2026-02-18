@@ -1,10 +1,6 @@
 import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
 
 loadRespecWithConfiguration({
-  alternateFormats: [{
-    "label": "",
-    "uri": "Digikoppeling-Gebruik-en-achtergrond-certificaten.pdf"
-  }],
   authors: [{
     "mailto": "digikoppeling@logius.nl",
     "name": "Logius"
