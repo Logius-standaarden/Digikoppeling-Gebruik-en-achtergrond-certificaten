@@ -1,6 +1,6 @@
 # Bijlage 3: Basisattributen in certificaat
 
-Voor de meest actuele versie zie het Programma van Eisen van PKIoverheid deel 3b<sup>27</sup>
+Voor de meest actuele versie zie het [[PKIO-PvE]]<sup>27</sup>
 
 <sup>27</sup>: [[[PKIO-PvE]]]
 
