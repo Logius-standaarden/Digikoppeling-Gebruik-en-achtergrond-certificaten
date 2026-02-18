@@ -2,7 +2,7 @@ import { loadRespecWithConfiguration } from "https://logius-standaarden.github.i
 
 loadRespecWithConfiguration({
   alternateFormats: [{
-    "label": "pdf",
+    "label": "",
     "uri": "Digikoppeling-Gebruik-en-achtergrond-certificaten.pdf"
   }],
   authors: [{
