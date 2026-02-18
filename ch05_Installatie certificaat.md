@@ -12,7 +12,7 @@ Dit hoofdstuk geeft antwoord op de volgende vragen met betrekking tot certificat
 
 Het programma van eisen<sup>15</sup> dat PKIoverheid aan TSP's oplegt bevat de verplichting aan TSP's om over de juiste beveiliging van sleutels door gebruikers te waken inclusief de mogelijkheid tot audit (zie kader).
 
-<sup>15</sup>: Zie [[PKIO-PvE]], zoekterm “deel 3b”.
+<sup>15</sup>: Zie [[PKIO-PvE]].
 
 ## Stappen
 
