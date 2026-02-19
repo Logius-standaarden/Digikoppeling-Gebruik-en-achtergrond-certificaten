@@ -75,7 +75,7 @@ Bij het gebruik van een CRL dient men erop te letten dat ook een CRL een bepaald
 
 <sup>25</sup>: TSP's zijn verplicht om het intrekken van een certificaat uiterlijk vier uur na melding via de CRL te publiceren.
 
-Bij het testen van applicaties is het van belang om certificaten te gebruiken waarvan de structuur overeenkomt met die van een PKIoverheid certificaat<sup>26</sup>. Pkioverheid kent een TEST hiërarchie voor dit doeleinde. Logius biedt daarnaast self signed testcertificaten om haar voorzieningen te kunnen testen.
+Bij het testen van applicaties is het van belang om certificaten te gebruiken waarvan de structuur overeenkomt met die van een PKIoverheid certificaat<sup>26</sup>. Hiervoor is er [opensource tooling beschikbaar](https://github.com/pkioverheid/g4-trial) gesteld door PKIo waarmee iedereen test (TRIAL) certificaten kan genereren voor een locale uitrol. Logius biedt daarnaast self signed testcertificaten om haar voorzieningen te kunnen testen.
 
 <sup>26</sup>: Een belangrijk kenmerk van PKIoverheid certificaten is behalve het OIN voor Digikoppeling dat deze een vierlaagsstructuur hebben (stamcertificaat, domein, TSP en certificaathouder). Niet alle software kan standaard goed omgaan met een vierlaagsstructuur. Het is daarom belangrijk dat dit goed getest wordt.
 
