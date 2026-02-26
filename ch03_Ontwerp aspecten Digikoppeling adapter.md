@@ -32,7 +32,7 @@ Combinatie van verschillende doelen in hetzelfde certificaat is efficiënt aange
 
 Voor gebruik van certificaten voor Digikoppeling is het toegestaan om certificaten te combineren voor alle genoemde doelen. Verder scheiden van certificaten per server wordt sterk aanbevolen, maar is niet vereist.
 
-Vaak spelen ook technische inrichtingsaspecten een rol. Voor gebruik ten behoeve van server-authenticatie dient een Common Name (CN)<sup>11</sup> te zijn opgenomen in het certificaat. Combinatie is technisch daarom alleen mogelijk voor zover de TLS-afhandeling in dit verband plaatsvindt op dezelfde (proxy)server met dezelfde CN.
+Vaak spelen ook technische inrichtingsaspecten een rol. Combinatie is technisch daarom alleen mogelijk voor zover de TLS-afhandeling in dit verband plaatsvindt op dezelfde (proxy)server met dezelfde CN.
 
 <sup>11</sup>: Hostname of Fully Qualified Name (FQN).
 
