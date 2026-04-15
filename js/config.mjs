@@ -2,19 +2,20 @@ import { loadRespecWithConfiguration } from "https://logius-standaarden.github.i
 
 loadRespecWithConfiguration({
   authors: [{
-    "mailto": "digikoppeling@logius.nl",
-    "name": "Logius"
+      "company": "Logius",
+      "name": "Peter Haasnoot",
+      "url": "https://www.logius.nl"
   }],
   editors: [
     {
       "company": "Logius",
       "name": "Peter Haasnoot",
-      "url": "https://logius.nl/standaarden"
+      "url": "https://www.logius.nl"
     },
     {
       "company": "Logius",
       "name": "Pieter Hering",
-      "url": "https://logius.nl/standaarden"
+      "url": "https://www.logius.nl"
     }
   ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Gebruik-en-achtergrond-certificaten",
