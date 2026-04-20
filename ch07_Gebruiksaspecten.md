@@ -49,7 +49,7 @@ Ingetrokken certificaten waarvan de geldigheidsduur is verlopen worden niet meer
 
 TSP's kunnen informatie over ingetrokken certificaten in plaats van via een CRL ook via een onlinevoorziening opvraagbaar maken. Deze ondersteuning via het Online Certificate Status Protocol (OCSP) is voor TSP's niet verplicht (behalve voor EV certificaten)<sup>21</sup>. Indien beschikbaar biedt dit wel de mogelijkheid om elk certificaat direct online te verifiëren.
 
-<sup>21</sup>: Zie voor detaileisen de Pkioverheid PVE deel 3: aanvullende eisen
+<sup>21</sup>: Zie voor detaileisen de [[PKIO-PvE]].
 
 ## Stappen
 
